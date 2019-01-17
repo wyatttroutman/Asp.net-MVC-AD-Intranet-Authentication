@@ -68,7 +68,7 @@ namespace MyProject.Areas.MyArea.Controllers
 ````  
 
 ## Known Issues
-- You may needed to deny anonymous users by adding the following line to your Web.Config in some cases.
+- You may need to deny anonymous users by adding the following line to your Web.Config in some cases.
 ````
 <system.web>
   <authentication mode="Windows" />
