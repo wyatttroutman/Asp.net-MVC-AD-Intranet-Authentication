@@ -5,9 +5,9 @@ A simple additive that allows you to authenticate users with an Active Directory
 - You must be using Windows authentication on your ASP.NET MVC project.
 
 ## Installation
-Copy the code from IntranetAuthorizeAttribute.cs into a equally named file in a supplemental code folder in your ASP.NET MVC project, or download the IntranetAuthorizeAttribute.cs file from this directory and add it manually. 
+Copy the code from `IntranetAuthorizeAttribute.cs` into a equally named file in a supplemental code folder in your ASP.NET MVC project, or download the `IntranetAuthorizeAttribute.cs` file from this directory and add it manually. 
 
-For example, I have a folder named "Classes" that contains the file IntranetAuthorizeAttribute.cs.
+For example, I have a folder named "Classes" that contains the file `IntranetAuthorizeAttribute.cs`.
 
 ## Usage
 To use, simply add the attribute to your controller function that you wish to authenticate the user for. Of course, you'll have to include a reference to the previously added Class file.
@@ -79,8 +79,7 @@ namespace MyProject.Areas.MyArea.Controllers
 ````
 
 ## Source
-This code was adopted from the following StackOverflow question:
-https://stackoverflow.com/questions/238437/why-does-authorizeattribute-redirect-to-the-login-page-for-authentication-and-au
+This code was adopted from this [Stack Overflow question](https://stackoverflow.com/questions/238437/why-does-authorizeattribute-redirect-to-the-login-page-for-authentication-and-au).
 
 ## Liability
 This repository is provided as is. I make no representations or warranties of any kind concerning the legality, safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this repository. There are inherent dangers in the use of any software, and you are solely responsible for determining whether this software is compatible with your equipment and other software installed on your equipment. You are also solely responsible for the protection of your equipment and backup of your data, and I will not be liable for any damages you may suffer in connection with using, modifying, or distributing this software. This software was written for educational purposes only.
